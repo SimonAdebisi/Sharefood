@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+
+body {
+    width: 100%;
+    font-family: Roboto;
+    margin:0;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(6,147,7);
+    height: 62px;
+}
+
+#logo {
+    float: right;
+    width: 300px;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#ulmenu {
+    float: left;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#ulmenu li {
+    float: left;
+    line-height: 62px;
+    margin: 0 15px;;
+    font-size: 17px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.row{
+    margin: 20px 0;
+}
+#concours{
+    width: 100%;
+}
+
+.text1{
+    text-align: justify;
+}
+
+.article{
+    height: 240px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgb(56, 56, 56);
+    background-color: rgba(6, 147, 6, 0.096);
+    margin: 10px 0;
+}
+
+.article h3{
+    margin-top: 10px;
+}
+
+#avenir{
+    width: 100%;
+}
