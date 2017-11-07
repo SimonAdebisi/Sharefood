@@ -3,6 +3,7 @@
 body {
     width: 100%;
     font-family: Roboto;
+
 }
 
 nav {
@@ -13,11 +14,15 @@ nav {
 
 #logo {
     float: right;
-    width: 20%;
-    position: relative;
+    width: 300px;;
+    
     margin: 10px;
     cursor: pointer;
 }
+
+/* #apple {
+    display: none;
+} */
 
 #ulmenu {
     float: left;
@@ -47,6 +52,7 @@ nav {
     overflow: hidden;
     background-image: url(http://newskrak.com/wp-content/uploads/2017/06/Fruits-vegetables.jpg);
     background-size: cover;
+    
 }
 
 .text {
@@ -65,3 +71,233 @@ nav {
     margin-top: 180px;
     text-shadow: 2px 2px 4px black;
 }
+
+h1 {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Roboto;
+    text-align: center;
+    margin-top : 30px;
+    color: rgba(128, 128, 128, 0.7);
+    border-bottom: 4px solid rgb(6,147,7);;
+    padding: 10px 35px;
+}
+
+#titreabout {
+    position: relative;
+    margin: 40px;
+    
+
+}
+
+#divfix {
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+#titremission {
+    color: rgba(128, 128, 128, 0.8);
+    font-family: Roboto;
+    padding: 0 0 0 41px;
+    box-sizing: border-box;
+}
+
+#bullet {
+    width: 32px;;
+    float: left;
+    
+}
+/* #underline {
+    height: 5px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(6,147,7);
+    opacity: 1;
+    display: inline-block;
+    border-radius: 10px;
+} */
+
+p {
+    color: rgba(128, 128, 128, 0.8);
+    font-family: Roboto;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.row {
+
+    margin: 15px 0;
+}
+
+#membre {
+    width: 100%;
+}
+
+.link1{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.link1:hover{
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;;
+    color: white;
+    text-decoration: none;
+}
+
+    
+
+@media only screen and (min-width : 881px){
+
+ #navmenu{
+    float: left;
+    height: 0;
+    width: 0;
+    transition: width 0.4s, height 0.3s;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    cursor: pointer;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    visibility: hidden;
+   
+}
+
+#apple {
+    display: none;
+}
+
+}
+@media only screen and (max-width : 880px){
+    #navmenu{
+        height: 60px;
+        width: 80px;
+        transition: width 0.4s, height 0.3s;
+        overflow: hidden;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+       
+    }
+   
+span {
+    display: block;
+    height: 5px;
+    width: 36px;
+    background: white;
+    border-radius: 9px;
+    margin: 8px 0;;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+
+
+}
+
+
+#logo {
+    display: none;
+}
+
+#ulmenu li{
+    display: none;
+}
+
+#apple {
+    display:none;
+    width: 30px;
+    float: right;
+}
+}
+
+
+#navmenu.open span:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: 0;
+  } 
+  
+  #navmenu.open span:nth-child(2) {
+    opacity: 0;
+    
+  }
+  
+  #navmenu.open span:nth-child(3) {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(-45deg);
+    transform-origin: 0;
+  }
+
+  .liensection {
+    font-size: 24px;
+    font-family: Roboto;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.7);
+    border-bottom: 4px solid rgb(6,147,7);
+    cursor: pointer;
+    margin-top: 20px;
+
+  }
+
+  footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(6,147,7);
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .reseau{
+      /* float: right; */
+      width: 10px;
+      position: absolute;
+     
+  }
+
+  #facebook {
+    right: 50px;
+    bottom: 10px;
+
+  }
+
+  #instagram {
+    right: 100px;
+    bottom: 8px;
+  }
+
+  #gmail{
+    right: 148px;
+    bottom: 10px;
+
+  }
