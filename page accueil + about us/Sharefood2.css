@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
 
+
 body {
     width: 100%;
     font-family: Roboto;
@@ -48,21 +49,15 @@ nav {
 }
 
 #imagediv {
-    height: 450px;
+    height: 400px;
     overflow: hidden;
+    width:100%;
     background-image: url(http://newskrak.com/wp-content/uploads/2017/06/Fruits-vegetables.jpg);
     background-size: cover;
-    
 }
 
-.text {
-    color:white;
-    text-align: center;
-    margin-top: 180px;   
-    opacity: 0;
-    transition: opacity 1s ease 1s;
 
-} 
+
 
 .showing {
     opacity: 1;
@@ -72,7 +67,7 @@ nav {
     text-shadow: 2px 2px 4px black;
 }
 
-h1 {
+#about {
     position: absolute;
     margin: 0 auto;
     top: 50%;
@@ -150,11 +145,12 @@ p {
     border-bottom: 2px solid white;;
     color: white;
     text-decoration: none;
+    transition: border-bottom 0.2s;
 }
 
     
 
-@media only screen and (min-width : 881px){
+@media only screen and (min-width : 901px){
 
  #navmenu{
     float: left;
@@ -181,8 +177,60 @@ p {
     display: none;
 }
 
+#text {
+    font-family: Roboto;
+    color:white;
+    text-align: center;
+    margin-top: 180px;   
+    opacity: 0;
+    font-size: 34px;
+    width: 1200px;
+    text-shadow: 2px 2px 4px black;
+    /* background-color: rgba(255, 255 , 255,0.4); */
+    border-radius: 9px;
+    display: inline-block;
+    padding: 15px;
+    position: absolute;
+    margin: 0 auto;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);   /* transition: opacity 1s ease 1s; */
+} 
+
+#become{
+    font-family: Roboto;
+    color:white;
+    text-align: center;
+    font-size: 28px;
+    background-color: rgba(6, 147 , 7, 1);
+    border-radius: 12px;
+    display: inline-block;
+    padding: 10px 15px;
+    position: absolute;
+    margin: 0 auto;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    cursor: pointer;
 }
-@media only screen and (max-width : 880px){
+
+#whitelogo{
+    display: none;
+}
+
+.dropdown {
+    display: none;
+}
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content a {
+    display: none;
+}
+
+}
+@media only screen and (max-width : 900px){
     #navmenu{
         height: 60px;
         width: 80px;
@@ -237,6 +285,33 @@ span {
     width: 30px;
     float: right;
 }
+
+.liensection{
+    display: none;
+}
+
+#become{
+    display: none;
+}
+
+#text {
+    display: none;
+}
+
+#whitelogo{
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin: 0 auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+
+}
+footer{
+    display: none;
+}
 }
 
 
@@ -266,13 +341,14 @@ span {
     border-bottom: 4px solid rgb(6,147,7);
     cursor: pointer;
     margin-top: 20px;
+    padding-bottom: 3px;
 
   }
 
   footer {
     margin-top: 40px;
     width: 100%;
-    height: 150px;
+    height: 110px;
     background-color: rgb(6,147,7);
     box-sizing: border-box;
     position: relative;
@@ -301,3 +377,118 @@ span {
     bottom: 10px;
 
   }
+#adresse {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 30px;
+    bottom: 8px;
+    margin-bottom: 0;
+    font-family: Roboto;
+}
+
+#mail {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 32px;
+    bottom: 35px;
+    margin-bottom: 0;
+    font-family: Roboto;
+}
+
+#tel{
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 30px;
+    bottom: 63px;
+    margin-bottom: 0;
+    font-family: Roboto;
+
+}
+
+#imgtel{
+    position: absolute;
+    left: 5px;
+    bottom: 65px;
+
+}
+
+#imgmail {
+    position: absolute;
+    left: 5px;
+    bottom: 37px;
+
+}
+
+#imgmap {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+
+}
+
+
+
+#whiteapple {
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin: 0 auto;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+
+@media only screen and (max-width : 900px){
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      
+    }
+
+    .dropdown-content {
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        background-color:rgb(6, 147,7);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 0 0 8px 0;
+        transition: height 300ms;
+        transition-timing-function: linear;
+        
+        
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        
+    }
+
+.dropdownopen {
+    /* display : inline; */
+    height: 270px;
+    transition: height 600ms;
+    transition-timing-function: linear;
+}
+
+
+
+/* .dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}     */
+}

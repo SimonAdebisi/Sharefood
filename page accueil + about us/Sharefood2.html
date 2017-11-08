@@ -9,11 +9,27 @@
 </head>
 <body>
     <nav>
-            <div id= "navmenu" >
+        <div class="dropdown">
+            <div class="dropbtn"  id= "navmenu" >
                     <span id = "firstspan"></span>
                     <span></span>
                     <span></span>
-            </div> 
+            </div>
+            <div class="dropdown-content">
+                    <a href="#">About us</a>
+                    <a href="#">Devenir Partenaire</a>
+                    <a href="#">Presse</a>
+                    <a href="">Faire un don</a>
+                    <a href="">Contact</a>
+            </div>
+        </div>
+        
+            <!-- <div  id= "navmenu" >
+                    <span id = "firstspan"></span>
+                    <span></span>
+                    <span></span>
+            </div> -->
+        
         <ul id = "ulmenu">
                 <li>
                     <a class= "link1" href="#about">About us</a>     
@@ -22,21 +38,23 @@
                     <a class= "link1">Devenir partenaire</a>   
                 </li>
                 <li>
-                    <a class= "link1">News</a>
-                </li>
-                <li>
                     <a class= "link1">Presse</a>
                 </li>
                 <li>
                     <a class= "link1">Faire un don</a>
                 </li>
+                <li>
+                        <a class= "link1">Contact</a>
+                    </li>
         </ul>
         <img id= "apple" src="https://scontent.fbru1-1.fna.fbcdn.net/v/t34.0-12/23361131_10211180289087982_2084406545_n.png?oh=e1450ab8d6144cf7c664dbd9739ce8e1&oe=5A03A3F3">
         <img id = "logo" src="https://scontent.fbru1-1.fna.fbcdn.net/v/t34.0-12/23316158_10211174031331542_1014718120_n.png?oh=2e1ef81e4572c97e3d10385ee34de30d&oe=5A038DE0">
         
     </nav>
     <div id= "imagediv">
-        <h1 class= "text">Chaque année, plus de 2.000 tonnes de nourriture sont jetées à Bruxelles.</h1>
+            <img id ="whitelogo" src="https://scontent.fbru1-1.fna.fbcdn.net/v/t34.0-12/23435626_10211180921623795_988163345_n.png?oh=00cc7762d063bdca5830417eac9ada4c&oe=5A04578F">
+        <div id="text">Chaque année, nous jettons plus de 20.000 tonnes de nourriture à Bruxelles.</div>
+        <a><div id="become">Devenez bénévoles !</div></a>
         <!-- <img id = "vegetables" src="http://newskrak.com/wp-content/uploads/2017/06/Fruits-vegetables.jpg"> -->
     </div>
     <div id = "divfix">
@@ -102,11 +120,18 @@
     </div>
 
     <footer>
+        <img id = "imgtel" src="https://png.icons8.com/phone-filled/ios7/20/ffffff">
+        <img id ="imgmail" src="https://png.icons8.com/message/ios7/20/ffffff">
+        <img id ="imgmap" src="https://png.icons8.com/marker/ios7/20/ffffff">
+        <p id = "tel"> 0477/636850</p>
+        <p id ="mail"> sharefoodbrussels@gmail.com</p>
+        <p id= "adresse"> 124, rue Jacques Brel 1060 Saint-Gilles</p>
+        <img id ="whiteapple" src="https://scontent.fbru1-1.fna.fbcdn.net/v/t34.0-12/23435626_10211180921623795_988163345_n.png?oh=00cc7762d063bdca5830417eac9ada4c&oe=5A04578F">
             <a id = "facebook" class = "reseau" href= "https://www.facebook.com/sharefoodbrussels/" target="_blank"><img src="https://png.icons8.com/facebook/ios7/42/ffffff"></a>
             <a id = "instagram" class = "reseau" href= "https://www.instagram.com/sharefoodbrussels/" target="_blank"><img src="https://png.icons8.com/instagram/dotty/45/ffffff"></a>
             <a id = "gmail" class = "reseau" href="mailto:sharefoodbrussels@gmail.com" target="_blank"><img src="https://png.icons8.com/gmail/ios7/40/ffffff"></a>
     </footer>                                
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
     <script src="Sharefood2.js"></script>  
