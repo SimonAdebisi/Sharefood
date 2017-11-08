@@ -64,3 +64,28 @@ nav {
 #avenir{
     width: 100%;
 }
+
+#titreabout {
+    position: relative;
+    margin: 40px;
+}
+
+#divfix {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#about {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Roboto;
+    text-align: center;
+    margin-top : 30px;
+    color: rgba(128, 128, 128, 0.7);
+    border-bottom: 4px solid rgb(6,147,7);;
+    padding: 10px 35px;
+}
