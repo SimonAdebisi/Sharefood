@@ -4,6 +4,7 @@ body {
     width: 100%;
     font-family: Roboto;
     margin:0;
+    position: relative;
 }
 
 nav {
@@ -18,6 +19,31 @@ nav {
     position: relative;
     margin: 10px;
     cursor: pointer;
+}
+
+#pouce {
+    color: rgba(6,147,7, 0.8);
+    font-family: Roboto;
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+
+#articlepouce {
+    color: rgba(128, 128, 128, 0.8);
+    font-family: Roboto;
+    font-size: 19px;
+    text-align: justify;
+    margin-bottom: 6px;
+}
+
+#lirepouce {
+    background-color: rgb(192, 192, 192);
+    border: 0;
+}
+
+#lirepouce:hover {
+    background-color: rgba(6,147,7, 0.8);
+
 }
 
 #ulmenu {
@@ -67,27 +93,24 @@ nav {
 
 #titreabout {
     position: relative;
-    margin: 40px;
+    margin: 35px 0 0px 40px;
 }
 
 #divfix {
-    height: 100px;
-    margin-bottom: 10px;
+    height: 85px;
 }
 
-#presse {
-    position: absolute;
-    margin: 0 auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.pressetitle {
     font-size: 50px;
-    font-family: Roboto;
-    text-align: center;
-    margin-top : 30px;
+    font-family: Roboto;    
     color: rgba(128, 128, 128, 0.7);
-    border-bottom: 4px solid rgb(6,147,7);;
-    padding: 10px 35px;
+    padding-left: 72px;
+    
+}
+
+.bullettitle {
+    width: 50px;
+    float: left;
 }
 
 #videos {
@@ -127,6 +150,8 @@ iframe{
 
 .carouselPhotos{
     position: relative;
+   
+   
 }
 
 #carouselExampleControls{
@@ -140,3 +165,137 @@ iframe{
     margin-bottom: 40px;
 
 }
+#containervideo {
+    padding : 0 203.4px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+} 
+
+#video {
+    width: 100%;
+}
+
+
+
+footer {
+    margin-top: 570px;
+    width: 100%;
+    height: 98px;
+    background-color: rgb(6,147,7);
+    box-sizing: border-box;
+    position: relative;
+    
+   
+  }
+
+  .reseau{
+      /* float: right; */
+      width: 10px;
+      position: absolute;
+     
+  }
+
+  #facebook {
+    right: 50px;
+    bottom: 10px;
+
+  }
+
+  #instagram {
+    right: 100px;
+    bottom: 8px;
+  }
+
+  #gmail{
+    right: 148px;
+    bottom: 10px;
+
+  }
+#adresse {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 30px;
+    bottom: 8px;
+    margin-bottom: 0;
+    font-family: Roboto;
+}
+
+#mail {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 32px;
+    bottom: 35px;
+    margin-bottom: 0;
+    font-family: Roboto;
+}
+
+#tel{
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 30px;
+    bottom: 63px;
+    margin-bottom: 0;
+    font-family: Roboto;
+
+}
+
+#imgtel{
+    position: absolute;
+    left: 5px;
+    bottom: 65px;
+
+}
+
+#imgmail {
+    position: absolute;
+    left: 5px;
+    bottom: 37px;
+
+}
+
+#imgmap {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+
+}
+
+
+
+#whiteapple {
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin: 0 auto;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media only screen and (max-width : 1180px){
+    footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 980px){
+    #containervideo {
+        padding: 0 100px;
+    }
+}
+
+#carroussel-item{
+    max-height: 608px;
+}
+
