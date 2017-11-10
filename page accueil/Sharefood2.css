@@ -55,10 +55,6 @@ nav {
     background-image: url(http://newskrak.com/wp-content/uploads/2017/06/Fruits-vegetables.jpg);
     background-size: cover;
 }
-
-
-
-
 .showing {
     opacity: 1;
     color:white;
@@ -212,6 +208,7 @@ p {
     left: 50%;
     transform: translate(-50%, -50%); 
     cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.658);
 }
 
 #whitelogo{
@@ -342,7 +339,10 @@ footer{
     cursor: pointer;
     margin-top: 20px;
     padding-bottom: 3px;
+  }
 
+  a:hover{
+      text-decoration: none;
   }
 
   footer {
