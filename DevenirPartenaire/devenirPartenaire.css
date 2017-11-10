@@ -390,3 +390,8 @@ footer {
 
 }
 
+@media only screen and (max-width : 570px){
+    .formulaire{
+        max-width: 400px;
+    }
+  }
